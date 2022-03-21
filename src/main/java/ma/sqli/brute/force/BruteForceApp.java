@@ -24,7 +24,7 @@ public class BruteForceApp {
             }
             String result;
             if(users.get(username).equals(password)){
-                counter = 0;
+                counter   = 0;
                 result = "Welcome "+username+"!";
             }else {
                 result = "User or password are incorrect.";
